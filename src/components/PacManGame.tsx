@@ -353,7 +353,7 @@ const PacManGame: React.FC = () => {
     <div className="flex flex-col items-center p-4 bg-gray-900 min-h-screen">
       <div className="mb-6 text-center">
         <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent mb-2">
-          EthOS Pac-Man Labyrinth Created by 0xnull
+          EthereumOS Pac-Man Labyrinth Created by 0xnull
         </h1>
         <p className="text-gray-300 mb-4 text-lg">Navigate through the EthOS maze and collect all pellets!</p>
         <div className="text-3xl font-bold bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
@@ -373,6 +373,7 @@ const PacManGame: React.FC = () => {
           <p className="mb-2 text-blue-300">🎮 Use arrow keys to move the diamond character</p>
           <p className="mb-2 text-yellow-300">⭐ Collect all yellow pellets to win!</p>
           <p className="text-sm text-red-300">👻 Avoid the four colored ghosts</p>
+          <p className="mb-2 text-white-500">EthereumOS Everywhere</p>
           {(gameOver || gameWon) && (
             <p className="mt-4 text-lg font-bold bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
               Press SPACE to restart
