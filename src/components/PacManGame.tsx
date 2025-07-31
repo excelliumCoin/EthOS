@@ -353,7 +353,7 @@ const PacManGame: React.FC = () => {
     <div className="flex flex-col items-center p-4 bg-gray-900 min-h-screen">
       <div className="mb-6 text-center">
         <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent mb-2">
-          EthOS Pac-Man Labyrinth
+          EthOS Pac-Man Labyrinth Created by 0xnull
         </h1>
         <p className="text-gray-300 mb-4 text-lg">Navigate through the EthOS maze and collect all pellets!</p>
         <div className="text-3xl font-bold bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
